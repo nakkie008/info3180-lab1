@@ -2,18 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    title>My Website - About</title>
+    <title>My Website - About</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
 </head>
 <body>
     <h1>Nakeeba Bowes</h1>
     <p>
+        <img src= "{{url_for('static', filename='arno-smit-cherry-blossom-unsplash.jpg')}}">
+        
         I am a third-year student at the University of the West Indies, Mona, majoring in Computer Science. I am 
         a 21-year-old Jamaican citizen who likes to read, write, code, and listen to music. I am also a budding 
         developer. My interest in Web Development was something that came with being interested in Computer 
-        Science. However, Web Development became an actual professional goal of mine over the summer break og 2022
+        Science. However, Web Development became an actual professional goal of mine over the summer of 2022
         when I decided to create a Web Development project with the help of articles and videos on the internet. I 
         enjoyed the experience a lot, and now, along with Cybersecurity, Web Development is a career path I am 
         determined to take.
     </p>
+
+    
 </body>
 </html>
